@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horario</title>
+  <style>
+    table {
+      width: 90%;
+      margin: 20px auto; /* Centrar la tabla en la página */
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 2px solid #000;
+      padding: 10px;
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    .horas-columna {
+      width: 15%;
+    }
+    th {
+      background-color: #f2f2f2; 
+    }
+    td[colspan="5"] {
+      background-color: white; 
+    }
+    td:nth-child(7) { 
+      background-color: white; 
+
+    td:nth-child(7):nth-child(odd) { 
+    }
+    td:nth-child(7):nth-child(even) { 
+    }
+} 
+  </style>
+</head>
+<body>
+
+  <h1>Horario de clases</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Horas</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sábado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="horas-columna">8:00 - 8:45</td>
+        <td rowspan="2">Arquitectura de software</td>
+        <td rowspan="2">Programación de BD</td>
+        <td rowspan="2">Proyecto de sistemas de información</td>
+        <td rowspan="3">Tecnología FrontEnd</td>
+        <td rowspan="3">Programación de BD</td>
+        <td rowspan="2">Ordenar</td>
+      </tr>
+      <tr>
+        <td class="horas-columna">8:45 - 9:30</td>
+      </tr>
+      <tr>
+        <td class="horas-columna">9:30 - 10:15</td>
+        <td rowspan="2" >Proyecto de sistemas de información</td>
+        <td rowspan="2" >Arquitectura de software</td>
+        <td rowspan="2" >Sistemas Operativos</td>
+        <td rowspan="2">Lavar</td>
+      </tr>
+      <tr>
+        <td class="horas-columna">10:15 - 11:00</td>
+        <td rowspan="1"> Innovación para el impacto local</td>
+        <td rowspan="1">Metodología de desarrollo de software</td>
+   
+      <tr>
+        <td class="horas-columna">11:00 - 11:30</td>
+        <td colspan="5">RECESO</td>
+        <td rowspan="3">cocinar</td>
+
+      </tr>
+      <tr>
+        <td class="horas-columna">11:30 - 12:15</td>
+        <td rowspan="2">Proyecto de sistemas de información</td>
+        <td rowspan="2">Tecnología FrontEnd</td>
+        <td rowspan="2">Sistemas Operativos</td>
+        <td rowspan="2">Innovación para el impacto local</td>
+        <td rowspan="2">Metodología de desarrollo de software</td>
+
+      </tr>
+      <tr>
+        <td class="horas-columna">12:15 - 13:00</td>
+
+
+        <tr>
+            
+        </tr>
+       
+    </tbody>
+  </table>
+
+</body>
+</html>
